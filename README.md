@@ -1,5 +1,20 @@
 # Frontend HTML CSS JS Calculator
 
+Frontend Project Layout will look like this:
+```
+~/environment/calculator-frontend
+├── aws-cli/
+│   ├── artifacts-bucket-policy.json
+│   ├── code-pipeline.json
+│   ├── eks-calculator-codebuild-codepipeline-iam-role.yaml
+│   ├── website-bucket-policy.json
+│   └── website-cloudfront-distribution.json
+├── base.css
+├── index.html
+├── querycalc.js
+└── README.md
+```
+
 ## Module 2: Create Frontend using HTML, CSS, JS Calculator
 - Calculator triggered by end users through a web page
 - TODO: Use Bootstrap for UI
