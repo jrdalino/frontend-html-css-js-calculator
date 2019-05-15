@@ -15,7 +15,7 @@ Frontend Project Layout will look like this:
 └── README.md
 ```
 
-## Step 1: Create Frontend using HTML, CSS, JS Calculator
+## Step 1: Create Frontend using HTML, CSS, JS
 - Calculator triggered by end users through a web page
 - TODO: Use Bootstrap for UI
 
