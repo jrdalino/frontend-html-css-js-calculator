@@ -15,22 +15,22 @@ Frontend Project Layout will look like this:
 └── README.md
 ```
 
-## Module 2: Create Frontend using HTML, CSS, JS Calculator
+## Step 1: Create Frontend using HTML, CSS, JS Calculator
 - Calculator triggered by end users through a web page
 - TODO: Use Bootstrap for UI
 
-### Step 2.1: Create a CodeCommit Repository
+### Step 1.1: Create a CodeCommit Repository
 ```
 $ aws codecommit create-repository --repository-name calculator-frontend
 ```
 
-### Step 2.2: Clone the repository
+### Step 1.2: Clone the repository
 ```
 $ cd ~/environment
 $ git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/calculator-frontend
 ```
 
-### Step 2.3: Test access to repo by adding README.md file and push to remote repository
+### Step 1.3: Test access to repo by adding README.md file and push to remote repository
 ```
 $ cd ~/environment/calculator-frontend
 $ echo "calculator-frontend" >> README.md
@@ -39,12 +39,12 @@ $ git commit -m "Adding README.md"
 $ git push origin master
 ```
 
-### Step 2.4: Navigate to working directory
+### Step 1.4: Navigate to working directory
 ```
 $ cd ~/environment/calculator-frontend
 ```
 
-### Step 2.5: Create index.html file
+### Step 1.5: Create index.html file
 ```
 $ vi index.html
 ```
@@ -97,7 +97,7 @@ $ vi index.html
 </html>
 ```
 
-### Step 2.6: Create base.css file
+### Step 1.6: Create base.css file
 ```
 $ vi base.css
 ```
@@ -140,7 +140,7 @@ body {
 }
 ```
 
-### Step 2.7: Create querycalc.js file
+### Step 1.7: Create querycalc.js file
 ```
 $ vi querycalc.js
 ```
@@ -249,9 +249,9 @@ function calcListener ( jQuery ) {
 }
 ```
 
-### Step 2.8: Test Locally
+### Step 1.8: Test Locally
 
-### Step 2.9: Save changes to remote git repository
+### Step 1.9: Save changes to remote git repository
 ```
 $ git add .
 $ git commit -m "Initial"
